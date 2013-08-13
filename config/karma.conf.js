@@ -1,8 +1,8 @@
 basePath = '../';
 
 files = [
-  JASMINE,
-  JASMINE_ADAPTER,
+//  JASMINE,
+//  JASMINE_ADAPTER,
   'app/lib/angular/angular.js',
   'app/lib/angular/angular-*.js',
   'test/lib/angular/angular-mocks.js',
@@ -13,6 +13,8 @@ files = [
 autoWatch = true;
 
 browsers = ['Chrome'];
+
+frameworks = ["jasmine"];
 
 junitReporter = {
   outputFile: 'test_out/unit.xml',
