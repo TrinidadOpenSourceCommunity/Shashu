@@ -1,14 +1,16 @@
 basePath = '../';
 
 files = [
-  ANGULAR_SCENARIO,
-  ANGULAR_SCENARIO_ADAPTER,
+//  ANGULAR_SCENARIO,
+//  ANGULAR_SCENARIO_ADAPTER,
   'test/e2e/**/*.js'
 ];
 
 autoWatch = false;
 
 browsers = ['Chrome'];
+
+frameworks = ["ng-scenario"];
 
 singleRun = true;
 
