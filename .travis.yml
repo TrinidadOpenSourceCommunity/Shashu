@@ -8,7 +8,7 @@ before_script:
   - npm install --quiet -g karma@canary
   - npm install --quiet -g karma-ng-scenario --save-dev
   - npm install connect
-  - node scripts/server.js ../. 8000 &
+  - node scripts/server.js ../../ 8000 &
   - sleep 5 # give server time to start
 
 script:
