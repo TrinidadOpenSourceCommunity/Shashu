@@ -7,7 +7,7 @@ before_script:
   - sh -e /etc/init.d/xvfb start
   - npm install --quiet -g karma@canary
   - npm install --quiet -g karma-ng-scenario --save-dev
-  - npm install --quiet -g connect
+  - npm install connect
   - node scripts/server.js ../. 8000 &
   - sleep 5 # give server time to start
 
