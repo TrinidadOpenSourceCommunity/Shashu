@@ -1,3 +1,4 @@
 logs/*
 !.gitkeep
 libpeerconnection.log
+node_modules/
