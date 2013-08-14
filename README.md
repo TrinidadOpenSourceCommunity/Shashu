@@ -4,4 +4,4 @@ Shashu
 open source mobile app for Shashamane Sunrise 
 
 
-[![Build Status](https://raw.github.com/ferronrsmith/Shashu/master/config/passing.png)](https://travis-ci.org/ferronrsmith/Shashu)
+[![Build Status](https://travis-ci.org/ferronrsmith/Shashu.png?branch=master)](https://travis-ci.org/ferronrsmith/Shashu)
