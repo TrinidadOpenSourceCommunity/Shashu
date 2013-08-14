@@ -9,7 +9,6 @@ module.exports = function(config) {
 	autoWatch : false,
 	singleRun : true,
 	browsers : ['Chrome'],
-	frameworks : ["jasmine"],
 	proxies : {
   		'/': 'http://localhost:8000/'
 	},

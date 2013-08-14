@@ -12,7 +12,6 @@ module.exports = function(config) {
 	],
 	autoWatch : true,
 	browsers : ['Chrome'],
-	frameworks : ["jasmine"],
 	junitReporter : {
 	  outputFile: 'test_out/unit.xml',
 	  suite: 'unit'
