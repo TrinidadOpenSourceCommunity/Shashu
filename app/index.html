@@ -10,6 +10,13 @@
     <li><a href="#/view1">view1</a></li>
     <li><a href="#/view2">view2</a></li>
   </ul>
+  
+  <a class="socialite twitter-share" href="http://twitter.com/share" data-text="ngo mobile app" data-url="http://ngomobile.com" target="_blank">Share on twitter</a>
+  <br />
+  <a href="https://plus.google.com/share" class="socialite googleplus-one" data-href="http://socialite.com" target="_blank">Share on Google+</a>
+  <br />
+  <a href="http://www.facebook.com/sharer.php" class="socialite facebook-like" data-href="http://ngomobile.com" target="_blank">Share on Facebook</a>
+  <br />
 
   <div ng-view></div>
 
@@ -19,6 +26,10 @@
   <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
   -->
   <script src="lib/angular/angular.js"></script>
+  <script src="lib/socialite/socialite.js"></script>
+  <script>
+  	Socialite.load();
+  </script>
   <script src="js/app.js"></script>
   <script src="js/services.js"></script>
   <script src="js/controllers.js"></script>
