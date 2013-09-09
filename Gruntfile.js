@@ -34,10 +34,17 @@ module.exports = function (grunt) {
             }
         },
         connect: {
-            server: {
+            testServer: {
                 options: {
                     port: 8000,
                     base: '.'
+                }
+            },
+            devServer: {
+                options: {
+                    port: 8000,
+                    base: '.',
+                    keepalive:true
                 }
             }
         },
@@ -51,7 +58,7 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.loadNpmTasks('grunt-karma');
     grunt.loadNpmTasks('grunt-contrib-connect');
-    grunt.registerTask('test', ['jshint', 'karma:unit', 'connect', 'karma:e2e']);
-    grunt.registerTask('default', ['jshint', 'karma:unit', 'connect', 'karma:e2e']);
+    grunt.registerTask('test', ['jshint', 'karma:unit', 'connect:testServer', 'karma:e2e']);
+    grunt.registerTask('default', ['jshint', 'karma:unit', 'connect:testServer', 'karma:e2e']);
 
 };
