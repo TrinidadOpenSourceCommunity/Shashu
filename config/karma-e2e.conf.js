@@ -2,9 +2,9 @@ module.exports = function (config) {
   config.set({
 		basePath : '../',
 		
+		frameworks : ["ng-scenario"],
+		
 		files : [
-		  ANGULAR_SCENARIO,
-		  ANGULAR_SCENARIO_ADAPTER,
 		  'test/e2e/**/*.js'
 		],
 		
