@@ -2,7 +2,11 @@ module.exports = function (config) {
   config.set({
 		basePath : '../',
 		
-		frameworks : ["ng-scenario"],
+		frameworks : ['ng-scenario'],
+		
+		plugins : [
+  			'karma-ng-scenario'
+		],
 		
 		files : [
 		  'test/e2e/**/*.js'
